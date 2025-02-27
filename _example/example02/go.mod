@@ -4,7 +4,7 @@ go 1.22
 
 require (
 	github.com/golang-queue/contrib v1.1.0
-	github.com/golang-queue/queue v0.2.0
+	github.com/blazium-engine/go-queue v0.2.0
 )
 
 require (
@@ -15,4 +15,4 @@ require (
 	golang.org/x/sys v0.29.0 // indirect
 )
 
-replace github.com/golang-queue/queue => ../../
+replace github.com/blazium-engine/go-queue => ../../

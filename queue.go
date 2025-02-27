@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/golang-queue/queue/core"
-	"github.com/golang-queue/queue/job"
+	"github.com/blazium-engine/go-queue/core"
+	"github.com/blazium-engine/go-queue/job"
 
 	"github.com/jpillora/backoff"
 )

@@ -4,7 +4,7 @@ import (
 	"context"
 	"runtime"
 
-	"github.com/golang-queue/queue/core"
+	"github.com/blazium-engine/go-queue/core"
 )
 
 var (

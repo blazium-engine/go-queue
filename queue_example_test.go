@@ -6,8 +6,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/golang-queue/queue"
-	"github.com/golang-queue/queue/job"
+	"github.com/blazium-engine/go-queue"
+	"github.com/blazium-engine/go-queue/job"
 )
 
 func ExampleNewPool_queueTask() {
