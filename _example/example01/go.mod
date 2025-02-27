@@ -4,7 +4,7 @@ go 1.22
 
 require (
 	github.com/golang-queue/contrib v0.0.1
-	github.com/golang-queue/queue v0.2.0
+	github.com/blazium-engine/go-queue v0.2.0
 )
 
 require (
@@ -12,4 +12,4 @@ require (
 	github.com/rs/zerolog v1.26.1 // indirect
 )
 
-replace github.com/golang-queue/queue => ../../
+replace github.com/blazium-engine/go-queue => ../../

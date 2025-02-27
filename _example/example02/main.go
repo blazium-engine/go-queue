@@ -7,9 +7,9 @@ import (
 	"log"
 	"time"
 
+	"github.com/blazium-engine/go-queue"
+	"github.com/blazium-engine/go-queue/core"
 	"github.com/golang-queue/contrib/zerolog"
-	"github.com/golang-queue/queue"
-	"github.com/golang-queue/queue/core"
 )
 
 type job struct {

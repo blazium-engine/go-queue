@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/golang-queue/queue/core"
+	"github.com/blazium-engine/go-queue/core"
 
 	"github.com/stretchr/testify/assert"
 )

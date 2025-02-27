@@ -1,8 +1,8 @@
 # Queue
 
-[![CodeQL](https://github.com/golang-queue/queue/actions/workflows/codeql.yaml/badge.svg)](https://github.com/golang-queue/queue/actions/workflows/codeql.yaml)
-[![Run Tests](https://github.com/golang-queue/queue/actions/workflows/go.yml/badge.svg)](https://github.com/golang-queue/queue/actions/workflows/go.yml)
-[![codecov](https://codecov.io/gh/golang-queue/queue/branch/master/graph/badge.svg?token=SSo3mHejOE)](https://codecov.io/gh/golang-queue/queue)
+[![CodeQL](https://github.com/blazium-engine/go-queue/actions/workflows/codeql.yaml/badge.svg)](https://github.com/blazium-engine/go-queue/actions/workflows/codeql.yaml)
+[![Run Tests](https://github.com/blazium-engine/go-queue/actions/workflows/go.yml/badge.svg)](https://github.com/blazium-engine/go-queue/actions/workflows/go.yml)
+[![codecov](https://codecov.io/gh/blazium-engine/go-queue/branch/master/graph/badge.svg?token=SSo3mHejOE)](https://codecov.io/gh/blazium-engine/go-queue)
 
 Queue is a Golang library for spawning and managing a Goroutine pool, allowing you to create multiple workers based on the CPU capacity of the machine.
 
@@ -38,13 +38,13 @@ Go version **1.22** or above
 Install the stable version:
 
 ```sh
-go get github.com/golang-queue/queue
+go get github.com/blazium-engine/go-queue
 ```
 
 Install the latest version:
 
 ```sh
-go get github.com/golang-queue/queue@master
+go get github.com/blazium-engine/go-queue@master
 ```
 
 ## Usage
@@ -61,7 +61,7 @@ import (
   "fmt"
   "time"
 
-  "github.com/golang-queue/queue"
+  "github.com/blazium-engine/go-queue"
 )
 
 func main() {
@@ -108,8 +108,8 @@ import (
   "log"
   "time"
 
-  "github.com/golang-queue/queue"
-  "github.com/golang-queue/queue/core"
+  "github.com/blazium-engine/go-queue"
+  "github.com/blazium-engine/go-queue/core"
 )
 
 type job struct {
@@ -178,8 +178,8 @@ import (
   "time"
 
   "github.com/golang-queue/nsq"
-  "github.com/golang-queue/queue"
-  "github.com/golang-queue/queue/core"
+  "github.com/blazium-engine/go-queue"
+  "github.com/blazium-engine/go-queue/core"
 )
 
 type job struct {
@@ -257,8 +257,8 @@ import (
   "time"
 
   "github.com/golang-queue/nats"
-  "github.com/golang-queue/queue"
-  "github.com/golang-queue/queue/core"
+  "github.com/blazium-engine/go-queue"
+  "github.com/blazium-engine/go-queue/core"
 )
 
 type job struct {
@@ -339,8 +339,8 @@ import (
   "log"
   "time"
 
-  "github.com/golang-queue/queue"
-  "github.com/golang-queue/queue/core"
+  "github.com/blazium-engine/go-queue"
+  "github.com/blazium-engine/go-queue/core"
   "github.com/golang-queue/redisdb"
 )
 

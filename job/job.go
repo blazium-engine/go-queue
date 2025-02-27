@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/golang-queue/queue/core"
+	"github.com/blazium-engine/go-queue/core"
 )
 
 // TaskFunc is the task function

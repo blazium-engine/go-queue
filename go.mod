@@ -1,4 +1,4 @@
-module github.com/golang-queue/queue
+module github.com/blazium-engine/go-queue
 
 go 1.22
 

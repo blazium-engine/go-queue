@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/blazium-engine/go-queue"
 	"github.com/golang-queue/contrib/zerolog"
-	"github.com/golang-queue/queue"
 )
 
 func main() {

@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/golang-queue/queue/core"
-	"github.com/golang-queue/queue/job"
-	"github.com/golang-queue/queue/mocks"
+	"github.com/blazium-engine/go-queue/core"
+	"github.com/blazium-engine/go-queue/job"
+	"github.com/blazium-engine/go-queue/mocks"
 
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/mock/gomock"
